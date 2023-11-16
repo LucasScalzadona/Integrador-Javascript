@@ -1,5 +1,7 @@
 // Contenedor Card
 const cardsContainer = document.querySelector(".cardscontainer");
+const botonCarrito = document.querySelector(".carrito");
+const botonMenu = document.querySelector("menu-label");
 
 // Función para crear el HTML
 const cardsTemplate = (cards) => {

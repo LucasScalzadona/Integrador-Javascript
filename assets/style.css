@@ -79,6 +79,7 @@ body {
   -ms-transition: all 0.15s;
   -o-transition: all 0.15s;
   width: 40px;
+  height: 40px;
 }
 
 .carrito:hover {
@@ -90,8 +91,44 @@ body {
   justify-content: right;
 }
 
+.carritoBubble {
+  position: relative;
+  /* top: 13px;
+  right: 353px; */
+  top: -26px;
+  left: 14px;
+  font-size: 10px;
+  height: 15px;
+  width: 15px;
+  color: var(--background);
+  background-color: #ec17a5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding-bottom: 1px;
+  border-radius: 40%;
+  -webkit-border-radius: 40%;
+  -moz-border-radius: 40%;
+  -ms-border-radius: 40%;
+  -o-border-radius: 40%;
+}
+
 .navbar i {
-  font-size: 18px;
+  font-size: 19px;
+  color: var(--fuente);
+  position: relative;
+  top: 7px;
+}
+
+.menu-label {
+  display: none;
+}
+
+.menu-label i {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
   color: var(--fuente);
 }
 
